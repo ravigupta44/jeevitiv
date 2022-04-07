@@ -1,0 +1,148 @@
+.Contact {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.Contact > h1 {
+  font-size: 2.5rem;
+  color: #035B96;
+}
+.Contact > p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+  font-size: normal;
+  font-weight: normal;
+}
+
+.contact-details__col {
+  padding: 2rem;
+}
+
+.contact-details__col > form {
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.contact-details__col .Input1[type="text"] {
+  color: #5f5f5f;
+  font-size: 1.1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-bottom: 1px solid #5f5f5f;
+}
+.contact-details__col .Input1::placeholder {
+  font-size: 1.1rem;
+  color: #c2c2c2;
+}
+.contact-details__col .Input2 {
+  font-size: 1.1rem;
+  color: #5f5f5f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px solid #5f5f5f;
+}
+.contact-details__col .Input2::placeholder {
+  color: #c2c2c2;
+  font-size: 1.3rem;
+}
+
+.contact-details__col .Input2::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+.contact-details__col .Input2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.contact-details__col .Input2::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.contact-details__col .Input2::-webkit-scrollbar-thumb:hover {
+  background: darkslategrey;
+}
+.contact-details__col > form > button {
+  margin: 5px auto;
+  margin-top: 1rem;
+  width: max-content;
+  font-size: 1.2rem;
+  height: fit-content;
+  padding: 3px 3.5rem;
+  background: #035b96;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.contact-social-media-icons {
+  list-style: none;
+  border-radius: 50%;
+  border: 1px solid #035b96;
+  padding: 3px;
+  margin-right: 10px;
+  height: min-content;
+  transform: scale(0.9, 0.9);
+}
+
+.contact-social-media-icons > button {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-social-media-icons .MuiSvgIcon-root {
+  color: #035b96;
+}
+
+.ContactEmail {
+  color: #5f5f5f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style:normal;
+}
+
+@media screen and (max-width: 768px) {
+  .Contact > h1 {
+    font-size: 2rem;
+  }
+  .Contact > p {
+    font-size: small;
+  }
+  
+  .contact-details__col {
+    padding: 0.5rem;
+  }
+
+  .contact-details__col > form {
+    padding: 0.5rem;
+  }
+  
+  .contact-details__col .Input1[type="text"] {
+    font-size: 0.8rem;
+  }
+  .contact-details__col .Input1::placeholder {
+    font-size: 0.8rem;
+  }
+  .contact-details__col .Input2 {
+    font-size: 0.9rem;
+  }
+  .contact-details__col .Input2::placeholder {
+    color: #c2c2c2;
+    font-size: 0.9rem;
+  }
+  .contact-details__col > form > button {
+    margin: 4px auto;
+    margin-top: 0.9rem;
+    font-size: 1rem;
+    padding: 1.5px 2rem;
+  }
+
+  .ContactEmail {
+    font-style:normal;
+  }
+  
+}

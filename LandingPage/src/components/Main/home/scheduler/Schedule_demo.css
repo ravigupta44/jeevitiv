@@ -1,0 +1,141 @@
+.sch_heading h1 {
+  font-family: Alef;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5f5f5f;
+}
+
+.sch_subtext p {
+  /* padding-bottom: 60px;
+  text-align: center;
+  font-family: Metric;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5f5f5f; */
+
+  font-family: Alef;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #5f5f5f;
+}
+
+.sch_inputform {
+  text-align: center;
+  /*font-size: 26px;*/
+}
+
+/* input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #c2c2c2;
+  color: #c2c2c2;
+} */
+
+.sch_demoform {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#container-form {
+  margin-top: 120px;
+}
+
+.radio {
+  margin-top: 20px;
+  box-sizing: content-box;
+}
+/* .boxx {
+  position: relative;
+  width: 175px;
+  height: 29px;
+  margin-left: 640px;
+  border: 0.5px solid #c2c2c2;
+  border-radius: 6px 6px 6px 6px;
+  margin-top: 50px;
+} */
+
+/* .patient {
+  position: absolute;
+  width: 120px;
+  height: 29px;
+  color: white;
+  background: #035b96;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 90px;
+} */
+
+.sch_demo_btn {
+  width: 200px;
+  height: 38.37px;
+  border: none;
+  background: #035b96;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  outline: none;
+  border-radius: 6px;
+  color: white;
+}
+.sch_demo_btn:hover {
+  
+  background: #064874;;
+  
+}
+
+.patient_btn {
+  /* border: 0px solid #035b96; */
+  background: #035b96;
+  color: #ffffff;
+  /* position: absolute; */
+  width: 240px;
+  height: 29px;
+  background: #035b96;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-top: 40px;
+  /* margin-left: 650px; */
+  border: 0px solid #035b96;
+}
+
+.doctor {
+  font-family: Metric;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #535151;
+  border: 0px solid white;
+  background-color: #ffff;
+}
+
+.submitbtn {
+  position: absolute;
+  width: 240px;
+  height: 29px;
+  background: #035b96;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-left: 650px;
+  border: 0px solid #035b96;
+}
+
+.mainbtn {
+  border: 0px solid #035b96;
+  background: #035b96;
+  color: #ffffff;
+}

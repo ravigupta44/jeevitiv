@@ -1,0 +1,35 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.hero>button {
+  position: absolute;
+  color: #fff;
+  background-color: #035b96;
+  outline: none!important;
+  border: none !important;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  bottom: 10%;
+  right: 10%;
+  z-index: 5;
+}
+.hero>button:hover {
+  background-color: #064874;
+ 
+}
+
+@media screen and (max-width: 767px) {
+  .hero>button {
+    border-radius: 4px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.7rem;
+    bottom: 10%;
+    right: 15%;
+    background-color: #064874; 
+  }
+}

@@ -1,0 +1,138 @@
+.about-us {
+  margin-top: 5rem;
+}
+
+.about-us__Intro>h1 {
+  font-size: 3rem ;
+  color: #035b96;
+}
+.about-us__Intro>p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #5f5f5f;
+}
+
+.video-player {
+  width: 50%;
+  height: 18rem;
+}
+
+.about-us__heading__2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #035b96;
+}
+
+.field {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  text-align: start;
+  max-width: 1000px;
+  border: 1px solid #C2C2C2 ;
+  border-radius: 20px;
+}
+
+.legend_headTxt {
+  font-style: normal;
+  font-weight: 500;
+  width: max-content;
+  transform: translateY(-2rem);
+  background-color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #035b96;
+}
+
+.field_paraTxt {
+  font-style: normal;
+  font-weight: normal;
+  transform: translateY(-2rem);
+  font-size: 1rem;
+  line-height:1.6rem;
+  color: #5f5f5f;
+}
+.abt_demobtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.about-us__demo__btn{
+  width: max-content;
+  height: max-content;
+  padding: 0.3rem 1.5rem;
+  text-transform: capitalize;
+  background: #035b96;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  outline: none !important;
+  border: none!important;
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-us__Intro>h1 {
+    font-size: 2rem ;
+  }
+  .about-us__Intro>p {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+  }
+
+  .video-player {
+    width: 85%;
+    height: 14rem;
+  }
+
+  .about-us__heading__2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #035b96;
+  }
+
+  .field {
+    margin: 0 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    max-width: 1000px;
+    border: 1px solid #C2C2C2 ;
+    border-radius: 15px;
+  }
+
+  legend {
+    margin-bottom: 0px;
+  }
+
+  .legend_headTxt {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    transform: translateY(0rem);
+    background-color: #fff;
+    font-size: 1.4rem;
+  }
+  
+  .field_paraTxt {
+    font-style: normal;
+    font-weight: normal;
+    transform: translateY(0rem);
+    font-size: 1.1rem;
+    line-height:1.6rem;
+    color: #5f5f5f;
+  }
+  
+}
+
+
+
+
+
+
+

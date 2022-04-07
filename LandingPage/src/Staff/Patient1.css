@@ -1,0 +1,138 @@
+.Patient1Main {
+  margin: 0;
+  margin-bottom: 10%;
+  width: 100%;
+}
+.Patient1Header {
+  width: 100%;
+  margin-top: 0;
+  height: 150px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.Patient1HeaderImg {
+  width: 10%;
+  margin-top: 5%;
+}
+.Patient1Details {
+  font-size: x-large;
+  margin-top: 7%;
+  text-align: center;
+  color: #5f5f5f;
+}
+.Patient1Doctor {
+  width: 20%;
+  margin-left: 40%;
+  border: 2px solid#f4f4f4;
+  border-radius: 5px;
+}
+.Patient1Table {
+  margin-top: 5%;
+}
+.Patient1TableHeading {
+  margin-left: 2%;
+  color: #035b96;
+  font-size: x-large;
+  font-weight: bold;
+}
+.Patient1Table2 {
+  margin-left: 3%;
+  width: 95%;
+}
+.Patien1Row1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7%;
+}
+.Patien1Row2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7%;
+}
+.Patient1Text {
+  margin-left: 3%;
+  color: #5f5f5f;
+}
+.Patient1Text2 {
+  margin-left: 3%;
+  margin-bottom: 2%;
+  color: #035b96;
+  font-weight: bolder;
+  font-size: large;
+}
+.Patient1Img1 {
+  width: 50%;
+  margin-left: 20%;
+}
+.Patient1Img2 {
+  width: 50%;
+}
+.Patient1Footer1 {
+  text-align: center;
+  width: 30%;
+  margin-left: 20%;
+}
+.Patient1Footer2 {
+  text-align: center;
+  width: 30%;
+}
+@media only screen and (min-width: 900px) {
+  .Patient1ImgDimension {
+    width: 10%;
+  }
+  .Patient1Text {
+    margin-left: 3%;
+    color: #5f5f5f;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  .Patient1Header {
+    height: 100px;
+  }
+  .Patient1HeaderImg {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .Patient1Table2 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .Patient1HeaderImg {
+    margin-top: 9%;
+  }
+  .Patient1Doctor {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Patien1Row2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .Patient1Footer1 {
+    text-align: center;
+    margin-left: 30%;
+    width: 50%;
+  }
+  .Patient1Footer2 {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 550px) {
+}
+@media only screen and (max-width: 550px) {
+  .Patient1HeaderImg {
+    margin-top: 13%;
+    width: 22%;
+  }
+  .Patient1Details {
+    margin-top: 15%;
+  }
+}

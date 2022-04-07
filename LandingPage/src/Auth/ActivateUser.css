@@ -1,0 +1,12 @@
+.activate-user{
+    margin-top: 5rem;
+}
+
+.activate-user-card{
+    width: 30%;
+    min-height: 30vh;
+    margin: 8rem auto;
+    border-radius: 10px;
+    background-color:transparent;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  }

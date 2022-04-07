@@ -1,0 +1,28 @@
+.doctors {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50svh;
+}
+
+.Demo_btnn {
+  background-color: #dcdcdc;
+  border: 0;
+  border-radius: 50px;
+  color: #035b96;
+  font-size: 14px;
+  height: 42px;
+  position: absolute;
+  padding: 12px 25px;
+  top: 0;
+  right: 0;
+}
+
+.Doctor-border {
+  display: inline-flex;
+  width: 100px;
+  height: 3px;
+  background: #035b96;
+  margin: 17px;
+}

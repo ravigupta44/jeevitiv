@@ -1,0 +1,114 @@
+.sch_row {
+  width: 100%;
+  padding: 1rem;
+  height: max-content;
+}
+
+.sch_col1 {
+  float: center;
+  width: 100%;
+  padding: 10px;
+  flex: 45%;
+  align-self: flex-start;
+}
+
+.sch_col1_h2 {
+  font-family: sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #5f5f5f;
+  padding-bottom: 1.5rem;
+}
+
+.schedule-form {
+  color: #5f5f5f;
+}
+
+.schedule-form > h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.schedule-form > p {
+  color: #080101;
+  padding: 0 1rem;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.schedule-form > input[type="text"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  width: 80%;
+  height: 2rem;
+  outline: none !important;
+  padding-left: 2px;
+  margin-top: 6%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.schedule-form > input::placeholder {
+  color: #c2c2c2;
+
+}
+
+.sche_col2 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: max-content;
+  flex: 55%;
+  align-self: center;
+}
+
+.sch_col2_img {
+  height: 400px;
+  flex: 0 0 45%;
+  align-self: center;
+}
+
+.sche_col2 .video-player {
+  width: 100%;
+  height: 18rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .sch_col2_img {
+    height: 250px;
+    flex: 0 0 45%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sch_col1 {
+    flex: 1;
+    padding: 0;
+    width: 100%;
+  }
+
+  .sch_col2 {
+    padding: 3rem;
+  }
+  .video-player {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .sch_row {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .sch_col1_h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,132 @@
+.Employees-container {
+  border-top: 1px solid #c2c2c2;
+  padding-bottom: 0;
+  text-align: center;
+  color: #5f5f5f;
+}
+.Employees-container > .title {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.Employees-container > .sub-title {
+  font-size: 1.125rem;
+  font-weight: 100;
+  max-width: 535px;
+  margin: 0 auto;
+}
+
+li.alice-carousel__stage-item {
+  transform: translateX(-1rem);
+}
+
+.Employees-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 18em;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 8rem auto 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Employees-body {
+  color: var(--dark);
+  background-color: #f4f4f4;
+  position: relative;
+  margin: 0 auto;
+  height: 17em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Employees-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  transform: translateY(-4rem);
+}
+
+.Employees-image img {
+  widows: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Employees-image > div > p {
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+.Employees-body .Employees-name {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none;
+}
+
+li.alice-carousel__dots-item.__active {
+  background-color: #035b96 !important;
+}
+
+ul.alice-carousel__dots {
+  padding: 5px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .Employees-container > .title {
+    font-size: 1.7rem;
+  }
+  .Employees-container > .sub-title {
+    font-size: 1rem;
+  }
+  .Employees-body {
+    height: 14em;
+  }
+  .Employees-image {
+    transform: translateY(-6rem);
+  }
+
+  .Employees-image > div > p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  .Employees-body .Employees-name {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Employees-body {
+    padding: 5px;
+  }
+
+  .Employees-btn p {
+    font-size: 0.8rem;
+  }
+}
+
+.alice-carousel__stage {
+  margin-left: 1.2rem;
+}
+
+.footer-border {
+  display: inline-flex;
+  width: 220px;
+  height: 3px;
+  background: #035b96;
+  margin: 17px;
+}

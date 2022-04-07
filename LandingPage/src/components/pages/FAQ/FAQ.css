@@ -1,0 +1,275 @@
+.faq {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.faq > h1 {
+  font-size: 2.725rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #035b96;
+}
+
+.faq > form {
+  display: flex;
+  width: 50%;
+  max-width: 567px;
+  height: 2.5rem;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.faq > form > input {
+  width: 100%;
+  border: none;
+  font-weight: 400;
+  background: transparent;
+  padding: 0.3rem 0 0.3rem 15px;
+  color: #5f5f5f;
+}
+
+.faq > form > input::placeholder {
+  color: #5f5f5f;
+}
+
+.faq > form > button {
+  padding: 0 0.5rem;
+  color: #5f5f5f;
+  border: none;
+  border-left: 0.5px solid #c2c2c2;
+  height: 100%;
+  width: max-content;
+  background: transparent;
+}
+.faq > form > button:focus {
+  border: none;
+}
+
+.feature {
+  width: 90%;
+  margin: 0 auto 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px #eae4ed;
+  border-radius: 15px;
+}
+
+.gauche {
+  text-align: left;
+  margin: 0 auto;
+  overflow-y: auto;
+  height: 400px;
+  width: 65%;
+  border-right: medium solid #eae4ed;
+}
+
+.gauche::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+.gauche::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.gauche::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.gauche::-webkit-scrollbar-thumb:hover {
+  background: darkslategrey;
+}
+
+.gauche ul {
+  padding: 0% 5% 0% 5%;
+}
+
+.gauche .question {
+  padding: 15px 0px 15px 15px;
+  font-style: normal;
+  font-weight: 400;
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #035b96;
+}
+
+.gauche .question:hover {
+  background: #edf0f7;
+}
+.gauche .question>p {
+  color: #035b96;
+}
+
+.ques_img {
+  width: 30px;
+  height: 30px;
+  justify-self: center;
+  margin-right: 5px;
+  
+}
+
+.text_a {
+  text-align: center;
+  margin: 0 auto;
+  width: 35%;
+  height: 400px;
+  font-size: 1em;
+  line-height: 1.2rem;
+  color: #5f5f5f;
+
+}
+.text_a>h2 {
+  color: #035b96;
+  font-size: 1.8rem;
+}
+.text_a>section{
+  overflow-y: auto;
+  height: 290px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+}
+
+.text_a>section::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.text_a>section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.text_a>section::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.text_a>section::-webkit-scrollbar-thumb:hover {
+  background: darkslategrey;
+}
+
+.text_a .answer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px;
+}
+.text_a .answer>h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+.text_a .answer>p {
+  font-size: 0.8rem;
+}
+
+.text_a > button {
+  background: #035b96;
+  height: min-content;
+  width: max-content;
+  border: none !important;
+  color: #fff;
+  padding: 0.3rem 1.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact_btn {
+  width: max-content;
+  height: max-content;
+  max-height: 2rem;
+  margin: 0 auto;
+  padding: 0.8rem 2.2rem;
+  background: #035b96;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-size: 1rem;
+  
+  text-transform: uppercase;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+
+  .faq {
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq > h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .faq > form {
+    width: 70%;
+    height: 2.3rem;
+  }
+
+  .feature {
+    width: 95%;
+    height: max-content;
+    margin: 0 auto 1rem;
+    background: #ffffff;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  
+  .gauche {
+    width: 95%;
+    text-align: left;
+    margin: 0 auto 1.5rem;
+    overflow-y: auto;
+    height: 400px;
+    width: 100%;
+    border-right: medium solid #eae4ed;
+  }
+  
+  .gauche::-webkit-scrollbar {
+    width: 1.5px;
+  }
+  .text_a {
+    width: 95%;
+    height: max-content;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px #eae4ed;
+    border-radius: 5px;
+  }
+
+  .text_a>h2 {
+    font-size: 1.5rem;
+  }
+
+  .text_a>section{
+    overflow-y: auto;
+    height: max-content;
+  }
+.text_a .answer {
+  width: 95%;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.text_a .answer>h5 {
+  font-size: 1rem;
+}
+.text_a .answer>p {
+  font-size: 0.7rem;
+}
+
+.contact_btn {
+  padding: 0.6rem 2.1rem;
+}
+}

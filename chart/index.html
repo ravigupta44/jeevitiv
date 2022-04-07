@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.0/chart.min.js"
+        integrity="sha512-yadYcDSJyQExcKhjKSQOkBKy2BLDoW6WnnGXCAkCoRlpHGpYuVuBqGObf3g/TdB86sSbss1AOP4YlGSb6EKQPg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>chart</title>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="myChart">
+
+        </canvas>
+    </div>
+    <script>
+        //let myChart = document.getElementById("myChart").getContext('2d');
+        // let masspopChart = new Chart(myChart, {
+        //     type: 'line',
+        //     data: {
+        //         labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'],
+        //         datasets: [{
+        //             labels: 'Blood Pressure',
+        //             data: [
+        //                 0,
+        //                 50,
+        //                 600,
+        //                 150,
+        //                 200,
+        //                 800,
+        //                 300,
+        //                 350,
+        //                 400,
+        //             ],
+        //             fill: false,
+        //             borderColor: 'rgb(75, 192, 192)',
+        //             tension: 0.1
+        //         }]
+        //     },
+        //     options: {}
+        // });
+
+        var ctx = document.getElementById("myChart").getContext("2d");
+
+        var mixedChart = new Chart(ctx, {
+            data: {
+                datasets: [{
+                    type: 'bar',
+                    label: 'Bar Dataset',
+                    data: [10, 20, 30, 40],
+                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)'
+                }, {
+                    type: 'line',
+                    label: 'Line Dataset',
+                    data: [20, 30, 10, 40],
+                    fill: false,
+
+
+                    borderColor: 'rgb(54, 162, 235)'
+
+                }],
+                labels: ['January', 'February', 'March', 'April']
+            },
+            animation: {
+                duration: 5000,
+                easing: "easeInOutBounce",
+            },
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>

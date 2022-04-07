@@ -1,0 +1,386 @@
+.FooterMain {
+  background-color: #5f5f5f;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.FooterColumn {
+  margin-top: 5%;
+  text-decoration: none;
+  justify-content: space-around;
+  line-height: 2;
+}
+
+
+.AboutJeevitiv {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  color: whitesmoke;
+  margin-top: -2rem;
+}
+
+.showMoreText {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.562);
+}
+
+.show-more-content > span > span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.show-more-content > span > span > span > span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.show-more-content > span > span > span > span > span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+.social-media-icons {
+  list-style: none;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 3px;
+  margin-right: 10px;
+  justify-content: start;
+  height: min-content;
+  color: #fff;
+  transform: scale(0.9, 0.9)
+}
+
+.social-media-icons> button {
+  width: 30px;
+  height: 30px;
+}
+
+.MuiSvgIcon-root {
+  color: white;
+}
+
+.link-description {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.FooterLinks > a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  border-bottom: none !important;
+  outline: none !important;
+  line-height: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(245, 245, 245);
+  margin-bottom: 5px;
+}
+.FooterLinks > a:hover {
+  color: white;
+}
+
+.FooterColumn__des:nth-of-type(2)>.FooterLinks>a:nth-of-type(7) {
+ line-height: 1.5rem;
+}
+.FooterColumn__des:nth-of-type(3)>.FooterLinks>a {
+ line-height: 1.5rem;
+}
+
+
+
+.Input1[type="text"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 2px solid white;
+  width: 80%;
+  padding: 0.3rem 1rem 0 0;
+  font-size: 1.3rem;
+  margin-bottom: 3px;
+}
+.Input1::placeholder {
+  color: white;
+  font-size: 1.3rem;
+}
+.Input2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  width: 80%;
+  height: 10rem;
+  line-height: 1.4rem;
+  margin-top: 6%;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+.Input2::placeholder {
+  color: white;
+  font-size: 1.3rem;
+}
+.Input2::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+.Input2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #035b96;
+  border-radius: 5px;
+}
+
+/* Handle */
+.Input2::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.Input2::-webkit-scrollbar-thumb:hover {
+  background: #f6f7f4;
+}
+
+.helpButton {
+  background: #035b96;
+  border: none;
+  color: white;
+  outline: none;
+  width: 150px;
+  height: 30px;
+}
+
+.FooterRow2 {
+  color: white;
+  background-color: #035b96;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.FooterRow2 > p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+ }
+ .FooterRow2 > p > span {
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer-subscribe {
+  display: flex;
+  border: 0.5px solid hsl(0, 0%, 100%);
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 40%;
+  height: min-content;
+  flex-direction: start;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.footer-subscribe input {
+  width: 65%;
+  height: 2.4rem;
+  border: none !important;
+  font-size: large;
+  padding-left: 5px;
+  color: rgb(61, 55, 55);
+  font-weight: 500;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.footer-subscribe input::placeholder {
+  color: #c2c2c2;
+}
+
+.footer-subscribe .subscribe-button {
+  width: 35%;
+  height: 2.4rem;
+  padding: 0 1rem;
+  background-color: #dcdcdc !important;
+  color: #035b96;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.FooterRow2 .copyright {
+  font-size: 1.25rem;
+}
+
+
+
+
+
+@media  (max-width: 767px) {
+  .FooterColumn{
+    padding-top: 0;
+  }
+  .FooterColumn__des {
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  .FooterColumn__des::after {
+    background-color: rgba(245, 245, 245, 0.842);; 
+    bottom: 0;
+    content: '';
+    height: 1.4px;
+    left: 25%;
+    position: absolute;
+    width: 50%;
+ 
+  }
+
+  .FooterColumn__des:nth-last-child(2)::after {
+    width: 0;
+  }
+  .FooterColumn__des:last-child{
+    width: 0;
+    display: none;
+  }
+
+  .Footer1 img {
+    padding: 0 10px;
+    width: 80%;
+    height: auto;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .FooterLinks {
+    width: 100%;
+  }
+
+  .FooterLinks > a {
+    font-size: 1rem;
+    margin-right: 0.4rem;
+    line-height: 1.1rem;
+    justify-self: flex-start;
+  }
+  .Input1[type="text"] {
+    font-size: 1.1rem;
+  }
+  .Input1::placeholder {
+    font-size: 1.1rem;
+  }
+  .Input2 {
+    font-size: 1.1rem;
+  }
+  .Input2::placeholder {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .helpButton {
+    margin: 5px auto;
+  }
+
+  .FooterRow2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+
+  .FooterRow2 > p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+   }
+   .FooterRow2 > p > span {
+    font-weight: 600;
+    line-height: 1.9rem;
+  }
+
+  .footer-subscribe {
+    max-width: 60%;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px auto -2rem;
+  }
+
+  .footer-subscribe input {
+    width: 80%;
+    height: 2rem;
+    padding-left: 3px;
+    font-size: inherit;
+    border-radius: 6px;
+  }
+
+  .footer-subscribe .subscribe-button {
+    width: max-content;
+    font-size: small;
+    border-radius: 5px;
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.3rem 0.4rem;
+    height: min-content;
+  }
+
+  .FooterRow2 .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .FooterColumn {
+    line-height: 1.5;
+  }
+  .AboutJeevitiv {
+    font-size: 1rem
+  }
+
+  .showMoreText {
+   font-size: 0.rem;
+  }
+
+  .link-description {
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .FooterLinks > a {
+    font-size: 0.8rem;
+  }
+
+  .Footer1 img {
+    padding: 0 10px;
+    width: 80%;
+    height: auto;
+  }
+
+  .Input1[type="text"] {
+    font-size: 1.2rem;
+  }
+  .Input1::placeholder {
+    font-size: 1.2rem;
+  }
+  .Input2 {
+    font-size: 1.2rem;
+  }
+  .Input2::placeholder {
+    font-size: 1.4rem;
+  }
+
+ 
+}

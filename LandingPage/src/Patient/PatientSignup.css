@@ -1,0 +1,90 @@
+
+.PatientSignupForm{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.patient_image_container{
+    width: 50%;
+    height: auto;
+}
+
+.patient_form
+ /*   padding-top: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px 10px;*/
+  {  background-color: #f4f4f4;
+    padding-top: 15px;
+    width: 50%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.submitbuttonnP:hover{
+    cursor: pointer;
+    width: 28%;
+    height: 28%;
+}
+.PatientSignupInput::placeholder{
+    color: #5F5F5F ;
+    font-size: 14px;
+}
+
+.PatientSignupInput {
+    background: none;
+    font-size: 14px;
+    margin: 0 98px ;
+    color: #5F5F5F; 
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    flex: 1;
+    border-bottom: 1px solid #5F5F5F;
+    outline: none;
+  }
+
+/* #dropdown{
+    border-bottom: 2px solid #5F5F5F ;
+} */
+
+/* .checkbox_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 98px 0 ;
+}
+
+.checkbox_container input{
+    width: 18px;
+    height: 18px;
+} */
+
+/* .checkbox_container label{
+    color: #5F5F5F;
+    font-size: 12px;
+    margin: 0 10px;
+} */
+
+/* .checkbox_container label span{
+    color:#035B96 ;
+} */
+
+
+.patient_form  img{
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
+

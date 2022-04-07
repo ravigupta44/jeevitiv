@@ -1,0 +1,33 @@
+
+ .help-textBox>textarea::-webkit-scrollbar {
+    width: 3px;
+  }
+  /* Track */
+  .help-textBox>textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  .help-textBox>textarea::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .help-textBox>textarea::-webkit-scrollbar-thumb:hover {
+    background: darkslategrey;
+  }
+
+@media screen and (max-width: 768px) {
+ 
+    .contact-container button{
+      font-size: 1rem;
+      /* margin: 0 auto; */
+      /* width: 50%; */
+    }
+
+    .contact-container{
+        width: 90%;
+    }
+}

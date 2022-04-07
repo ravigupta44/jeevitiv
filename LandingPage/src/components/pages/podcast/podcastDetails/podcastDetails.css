@@ -1,0 +1,157 @@
+.podcast-details {
+  margin-top: 5rem;
+}
+
+.podcast-thumbnails {
+  position: relative;
+}
+.podcast-thumbnails > .border-img {
+  background-image: url("../outerCircle.png");
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5.65rem;
+  height: 5.65rem;
+  top: 42%;
+  left: 45%;
+  position: absolute;
+}
+
+.podcast-thumbnails > .border-img:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.podcast-thumbnails > .border-img > .play-icon {
+  position: relative;
+  top: 17%;
+  left: 5%;
+  width: calc((2 / 3) * 5.65rem);
+  height: calc((2 / 3) * 5.65rem);
+}
+
+.podcast-details__head {
+  width: 85%;
+  margin: 0 auto;
+  color: #5f5f5f;
+  text-align: start;
+}
+
+.podcast-details__head > h2 {
+  text-transform: uppercase;
+  color: #035b96;
+  font-size: 1.6rem;
+}
+
+.podcast-details__head > .information > .Podcast__date {
+  width: max-content;
+  color: #c2c2c2;
+  font-size: 1.2rem;
+}
+.podcast-details__head > .information > .Podcast__place {
+  color: #c2c2c2;
+  font-size: 1.2rem;
+}
+.podcast-details__head > .information > .Podcast__place > span {
+  color: #5f5f5f;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.podcast-article {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+.podcast-article > h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.podcast-article > p {
+  font-size: 1.2rem;
+}
+
+.podcast-details-news-footer {
+  justify-content:space-between;
+}
+
+
+
+
+.podcast-details-news-footer > .child-news-footer > a:hover,
+.podcast-details-news-footer > .child-news-footer > a:active,
+.podcast-details-news-footer > .child-news-footer > a:focus {
+  color: #035b96;
+  border-bottom: 1px solid #035b96;
+}
+
+.podcast-social-media-icons  {
+  list-style: none;
+  border-radius: 50%;
+  border: 1px solid #035b96;
+  padding: 3px;
+  margin-right: 10px;
+  height: min-content;
+  transform: scale(0.9, 0.9);
+}
+
+.podcast-social-media-icons > button {
+  width: 30px;
+  height: 30px;
+}
+
+.podcast-social-media-icons .MuiSvgIcon-root {
+  color: #035b96;
+}
+
+.podcast-details-news-footer > .child-news-footer > a {
+  text-decoration: none;
+  color: #5f5f5f;
+  margin-right: 1rem;
+  outline: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .podcast-thumbnails > .border-img {
+    width: 3rem;
+    height: 3rem;
+    top: 35%;
+    left: 43%;
+  }
+
+  .podcast-thumbnails > .border-img > .play-icon {
+    top: 17%;
+    left: 5%;
+    width: calc((2 / 3) * 3rem);
+    height: calc((2 / 3) * 3rem);
+  }
+
+  .podcast-details__head > h2 {
+    font-size: 1.4rem;
+  }
+
+  .podcast-details__head > .information > .Podcast__date {
+    font-size: 1.1rem;
+  }
+  .podcast-details__head > .information > .Podcast__place {
+    font-size: 1.1rem;
+  }
+  .podcast-details__head > .information > .Podcast__place > span {
+    font-size: 1.1rem;
+  }
+  .podcast-article > h5 {
+    font-size: 1.4rem;
+  }
+  .podcast-article > p {
+    font-size: 1.1rem;
+  }
+
+  .podcast-social-media>span{
+    font-size: 0.9rem;
+  }
+
+  .podcast-details-news-footer {
+    justify-content:flex-start;
+  }
+}

@@ -1,0 +1,68 @@
+.SearchMain {
+  margin-top: 3%;
+}
+.SearchHeading {
+  color: #5f5f5f;
+  margin-left: 2%;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.SearchCard {
+  margin-top: 2%;
+  margin-left: 25%;
+  width: 50%;
+  background: #f4f4f4;
+}
+.SearchProfile {
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 14%;
+}
+.SearchDocName {
+  color: #035b96;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 3%;
+}
+.SearchDocType {
+  color: #5f5f5f;
+  margin-top: 3%;
+}
+.SearchTop {
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.SearchTopL {
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+  background: url("../Assets/Location.svg") no-repeat 98%;
+}
+.SearchTopH {
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+  background: url("../Assets/search.svg") no-repeat 98%;
+}
+@media only screen and (max-width: 630px) {
+  .SearchCard {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .SearchTop {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  .SearchTopH {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  .SearchTopL {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+}

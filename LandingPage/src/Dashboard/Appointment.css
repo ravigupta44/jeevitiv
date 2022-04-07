@@ -1,0 +1,101 @@
+.bookMain {
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bookHeading {
+  text-align: center;
+  font-family: Alef;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #035b96;
+}
+.bookInput1 {
+  width: 100%;
+  margin-top: 3%;
+  height: 30px;
+  border-radius: 5px #c2c2c2;
+  /* background: url("../Assets/Location.svg") no-repeat 98%; */
+}
+.bookInput2 {
+  width: 100%;
+  margin-top: 5%;
+  height: 30px;
+  border-radius: 5px #c2c2c2;
+  /* background: url("../Assets/search2.svg") no-repeat 98%; */
+}
+.bookInput3 {
+  width: 100%;
+  margin-top: 5%;
+  height: 30px;
+  border-radius: 5px #c2c2c2;
+  /* background: url("../Assets/search.svg") no-repeat 98%; */
+}
+.bookSubHeading {
+  font-family: Alef;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #5f5f5f;
+}
+
+.details {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+}
+
+.name {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 1% 2% 0.5% 3%;
+  margin-top: 7%;
+}
+:focus {
+  outline: none;
+  border-bottom: 1px solid #c2c2c2;
+  box-shadow: 0 0 0 #1670be;
+}
+::placeholder {
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  color: #c2c2c2;
+}
+
+.dropdown {
+  width: 100%;
+  border: none;
+  margin-top: 7%;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 1% 2% 0.5% 3%;
+}
+:focus {
+  outline: none;
+  border-bottom: 1px solid #c2c2c2;
+  box-shadow: 0 0 0 #1670be;
+}
+
+.date {
+  width: 100%;
+  border: none;
+  margin-top: 7%;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 1% 2% 0.5% 3%;
+}
+
+.bookButtonDiv {
+  text-align: center;
+}
+.bookButton {
+  margin-top: 20%;
+  width: 65%;
+  height: 65%;
+}

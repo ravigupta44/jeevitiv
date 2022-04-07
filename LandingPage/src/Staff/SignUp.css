@@ -1,0 +1,109 @@
+.SignupMain {
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.SignupInputLabel {
+  font-family: Metric;
+  color: #035b96;
+  margin-left: 1%;
+  margin-top: 1%;
+  font-size: 20px;
+}
+.SignupInput {
+  width: 40%;
+  margin: 1%;
+}
+/* .SignupInput2 {
+  width: 100%;
+} */
+.SignupInputId {
+  width: 100%;
+  padding: 2% 2% 2% 2%;
+  border-radius: 10px;
+  font-size: 100%;
+  border: 2px solid #c4c4c4;
+}
+.SignupAddress {
+  width: 82%;
+}
+.SignupID {
+  width: 40%;
+  margin-left: 9%;
+}
+.SignupForm {
+  display: flex;
+  justify-content: center;
+}
+.SignupFormLastRow {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin-left: 8%;
+}
+.SignupCheckbox {
+  margin-left: 9%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+/* .SignupForm2 {
+  margin-left: 0%;
+} */
+.SignupHeading {
+  font-family: Metric;
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  color: #035b96;
+}
+.SignupSubmit {
+  margin: auto;
+  margin-top: 2%;
+  width: 70%;
+}
+
+.SignupSubmitBtn {
+  margin-top: 2%;
+  margin-left: 20%;
+  width: 50%;
+  height: 4%;
+  background: #035b96;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+@media only screen and (max-width: 600px) {
+  .SignupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .SignupFormLastRow {
+    margin-left: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .SignupInput {
+    width: 100%;
+    margin: 1%;
+  }
+  .SignupAddress {
+    width: 100%;
+  }
+  .SignupID {
+    width: 100%;
+    margin-left: 1%;
+  }
+  .SignupSubmitBtn {
+    width: 200px;
+    height: 30px;
+    margin-left: 1%;
+  }
+
+  .SignupCheckbox {
+    margin-left: 3%;
+  }
+}

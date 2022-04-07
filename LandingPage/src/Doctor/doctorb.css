@@ -1,0 +1,85 @@
+.doctor_Benefit {
+  margin: 0;
+  margin-top: 5rem;
+}
+
+.doctor-how-this__text {
+  color: #5f5f5f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.doctor-heading {
+    letter-spacing: 0.5rem;
+    color: #035b96;
+    margin: 0 auto;
+  }
+
+.doctor-how-this__video {
+  min-height: 80vh; 
+}
+
+.doctor-img {
+  width: 60%;
+  margin: 0 auto;
+  height: 28vh;
+}
+
+.doctor-sub {
+  color: #035b96;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.doctor-card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.4rem;
+  color: #5f5f5f;
+  font-weight: 400;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  min-height: 70vh;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+@media(max-width: 768px) {
+    .doctor-heading {
+        letter-spacing: 0.2rem;
+        font-size: 4rem;
+      }
+    
+      .doctor-how-this__text {
+        font-size: 1.2rem;
+      }
+    .doctor-how-this__video {
+      min-height: 20vh;
+    }
+
+    .doctor-img {
+        width: 90%;
+        margin: 0 auto;
+        height: 15vh;
+      }
+      
+      .doctor-sub {
+        letter-spacing: 0.5px;
+      }
+
+      .doctor-card {
+        font-size: 1rem;
+        width: 90%;
+        min-height: 40vh;
+
+        padding: 1rem;
+      }
+
+}
+
+
+
+

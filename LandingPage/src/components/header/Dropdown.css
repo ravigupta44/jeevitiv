@@ -1,0 +1,89 @@
+.customize-dropdown-menu {
+  /* background: rgba(255, 255, 255, 1); */
+  width: max-content;
+  min-width: 15rem;
+  position: absolute;
+  top: 78px;
+  list-style: none;
+  padding-left: 0px;
+  text-align: start;
+  column-count: 2;
+  background: #fff;
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 25%);
+  border-radius: 0px 0px 3px 3px;
+  z-index: 4;
+}
+ .login {
+  min-width: max-content;
+  list-style: none;
+  padding-left: 0px;
+  text-align: start;
+  font-size: 0.8rem;
+  column-count: 1;
+}
+
+.customize-dropdown-menu li {
+  background: rgba(255, 255, 255, 1);
+  padding: auto 0;
+  cursor: pointer;
+}
+
+.login li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.customize-dropdown-menu li:hover {
+  background: rgba(244, 244, 244, 1);
+}
+.customize-dropdown-menu>li>[href="/patient"] {
+  width: min-content
+}
+
+.customize-dropdown-menu .clicked {
+  display: none;
+}
+
+.customize-dropdown-link  {
+  display: -webkit-inline-box;
+  height: 100%;
+  width: 100%;
+  border: none !important;
+  text-decoration: none;
+  color: rgba(95, 95, 95, 1);
+  padding: 0.3rem 0rem 0.3rem 0.5rem;
+  text-transform: capitalize;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+
+  .customize-dropdown-menu {
+    min-width: 8rem;
+    top: -6rem;
+    left:57%;
+    column-count: 1;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .customize-dropdown-menu {
+    top: -4.5rem;
+    left: 60%;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+
+  .customize-dropdown-menu>li>[href="/patient"] {
+    width: max-content
+  }
+    
+  }

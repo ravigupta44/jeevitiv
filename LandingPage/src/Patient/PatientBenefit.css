@@ -1,0 +1,142 @@
+.patient_benefit {
+    margin: 0;
+    margin-top: 5rem;
+}
+
+
+.patient-heading {
+    letter-spacing: 0.5rem;
+    color: #035b96;
+    margin: 0 auto;
+    font-weight: 600;
+  }
+
+.patient-how-this__text {
+    color: #5f5f5f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.patient-how-this__video {
+    height:70vh; 
+}
+
+.patient__column{
+  width: 90%;
+  margin: auto;
+}
+.patient__column> div{
+  padding-left: 1rem;
+}
+
+
+.card-heading{
+  color: #035b96;
+  margin-top:2%;
+  width :80%;
+  font-weight: 800;
+}
+
+.patient-img {
+  width: 150px;
+  /* max-width: 30%; */
+  height: 150px;
+}
+.patient-img >img{
+  width: 150px;
+  height: 150px;
+}
+
+
+.patient-sub {
+  color: #035b96;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width : 100%;
+  text-align: start;
+  margin-top : 2%;
+}
+
+.patient-card {
+  font-size: 1.4rem;
+  color: #5f5f5f;
+  font-weight: 400;
+  width: 100%;
+  background-color: #f4f4f4;
+  min-height: 35vh;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-left: 0.5rem;
+  justify-content: right;
+  text-align:start;
+}
+
+.sch_demo_btn{
+  margin-bottom: 1rem;;
+}
+
+
+@media(max-width: 768px) {
+  .patient-heading {
+      letter-spacing: 0.2rem;
+      font-size: 4rem;
+    }
+  
+    .patient-how-this__text {
+      font-size: 1.2rem;
+    }
+  .patient-how-this__video {
+    width: 90%;
+    margin: 0 auto;
+    height: max-content !important;
+  }
+  
+  .patient__column{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .patient__column> div{
+    padding-left: 0rem;
+  }
+
+  .patient-img {
+      width: 90%;
+      height: 120px;
+      max-width: max-content;
+    }
+  .patient-img>img {
+      width: 90%;
+      height: 120px;
+      max-width: max-content;
+    }
+
+    
+    
+    .patient-sub {
+      margin: 0 auto;
+      width: 90%;
+      letter-spacing: 0.5px;
+      line-height: 1.3rem;
+      text-align:center;
+      margin-bottom: 10px  !important;
+    }
+
+    .patient-card {
+      font-size: 1rem;
+      width: 90%;
+      margin: 0 auto;
+      min-height: max-content;
+      padding: 1rem;
+
+    }
+
+    .card-heading{
+      letter-spacing: 0.05em;
+      margin-top:2%;
+      width :90%
+    }
+}
+

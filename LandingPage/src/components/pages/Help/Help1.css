@@ -1,0 +1,238 @@
+.help_img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.help_title {
+  font-family: Metric;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #035b96;
+}
+
+.help_ques {
+  width: auto;
+  height: 34px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  float: left;
+  margin-right: 12px;
+}
+
+main {
+  min-height: 100vh;
+  /* using flex because of better browser support */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help_container {
+  width: 90vw;
+  /* margin: 5rem auto; */
+  /* background: var(--clr-white); */
+  border-radius: 0.25rem;
+  padding: 2.5rem 2rem;
+  max-width: 920px;
+  display: grid;
+  gap: 1rem 2rem;
+}
+.help_container h3 {
+  line-height: 1.2;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .help_container {
+    display: grid;
+    /* grid-template-columns: 250px 1fr; */
+  }
+}
+@media screen and (max-width: 500px) {
+  main {
+    display: inline;
+  }
+  
+}
+
+.question {
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.question h4 {
+  text-transform: none;
+  line-height: 1.5;
+}
+.question p {
+  color: hsl(209, 34%, 30%);
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question header h4 {
+  margin-bottom: 0;
+  color: #61676d;
+}
+.help_btn {
+  background: transparent;
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  background: #eae6eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: hsl(204deg 96% 30%);
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+/*  Form CSS  */
+:root {
+  --color-black-1: #000000;
+  --color-black-2: #0a0a0a;
+}
+
+.help_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.help_form>h2 {
+  color: #035b96
+}
+
+.contact-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  background-color: #F4F4F4;
+  ;
+}
+
+.contact-container h2 {
+  margin: 0 0 10px;
+  opacity: 0.8;
+}
+
+.contact-container p {
+  opacity: 0.7;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.contact-container form {
+  width: 100%;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.contact-container .wrapper {
+  width: 100%;
+  margin-bottom: 3rem ;
+}
+
+.contact-container .wrapper-big {
+  height: 80px;
+}
+.contact-container .wrapper-big>label {
+  text-align: start;
+  color: #c2c2c2;
+}
+
+.contact-container input{
+  border: none;
+ font-size: 1rem;
+  display: block;
+  width: 100%;
+  background: none;
+  border-bottom: 1px solid black;
+}
+
+.contact-container .help-textBox {
+  
+}
+.contact-container .help-textBox>label {
+  color: #c2c2c2;
+  font-size: 1rem;
+}
+
+
+
+.form-textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+
+
+/*
+.contact-container input:focus,
+.contact-container textarea:focus {
+  outline: 0;
+} */
+
+.contact-container input:focus + .gradient-bg,
+.contact-container textarea:focus + .gradient-bg {
+  background: linear-gradient(
+    to right,
+    var(--color-black-1),
+    var(--color-black-2)
+  );
+}
+
+.contact-container .gradient-bg {
+  background: #999;
+  border-radius: 4px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  z-index: 0;
+}
+
+.contact-container button {
+  background: rgba(3, 91, 150, 1);
+  border-radius: 4px;
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0px 3px 10px rgb(26 4 0 / 80%);
+  color: #fff;
+  font-size: 1.2rem;
+  padding:  0.5rem 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-container form {
+    width: 100%;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  }
+}
+

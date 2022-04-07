@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.partner_img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.h1txt {
+  font-family: Metric;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #035b96;
+  margin: 23px;
+}
+
+.h2txt {
+  font-family: Metric;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #5f5f5f;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.parttxt {
+  font-family: Metric;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #035b96;
+  margin: 23px;
+}
+
+.partbtn {
+  width: 260px;
+  height: 48px;
+  /* left: 668px; */
+  /* top: 1847px; */
+  font-family: Metric;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #035b96;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin: 23px;
+}
+
+img {
+  width: auto;
+  height: 150px;
+}

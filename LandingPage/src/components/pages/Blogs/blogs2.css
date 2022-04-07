@@ -1,0 +1,119 @@
+.blogs-details {
+    margin-top: 5rem;
+  }
+.blog_head{
+    width: 85%;
+  margin: 0 auto;
+  color: #5f5f5f;
+  text-align: start;
+  
+}
+.blog_head > h2 {
+    text-transform: uppercase;
+    color: #035b96;
+    font-size: 1.6rem;
+    text-align: start;
+}
+.blog_head > .information > .blog_date {
+    width: max-content;
+    color: #c2c2c2;
+    font-size: 1.2rem;
+  }
+.blog_head > .information > .blog_place {
+    color: #035b96;
+    color: #c2c2c2;
+    font-size: 1.2rem;
+ }
+.blog_head > .information > .blog_place > span {
+
+    color: #035B96;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .blog-article {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .blog-article > h5 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .blog-article > p {
+    font-size: 1.2rem;
+  }
+
+  .blog-news-footer {
+    justify-content:space-between;
+  }
+  
+  .blog-news-footer > .child-news-footer > a:hover,
+  .blog-news-footer > .child-news-footer > a:active,
+  .blog-news-footer > .child-news-footer > a:focus {
+    color: #035b96;
+    border-bottom: 1px solid #035b96;
+  }
+  
+  .blog-social-media-icons  {
+    list-style: none;
+    border-radius: 50%;
+    border: 1px solid #035b96;
+    justify-content: center;
+    padding: 3px;
+    margin-right: 10px;
+    height: min-content;
+    transform: scale(0.9, 0.9);
+  }
+  
+  .blog-social-media-icons > button {
+    width: 30px;
+    height: 30px;
+  
+  }
+  
+  .blog-social-media-icons .MuiSvgIcon-root {
+    color: #035b96;
+  }
+  
+  .blog-news-footer > .child-news-footer > a {
+    text-decoration: none;
+    color: #5f5f5f;
+    margin-right: 1rem;
+    outline: none !important;
+  }
+  
+  @media screen and (max-width: 767px) {
+    
+  
+    
+    .blog_head > h2 {
+      font-size: 1.4rem;
+    }
+  
+    .blog_head > .information > .blog_date {
+      font-size: 1.1rem;
+    }
+    .blog_head > .information > .blog_place {
+      font-size: 1.1rem;
+    }
+    .blog_head > .information > .blog_place > span {
+        text-align: start;
+      font-size: 1.1rem;
+    }
+    .blog-article > h5 {
+      font-size: 1.4rem;
+    }
+    .blog-article > p {
+      font-size: 1.1rem;
+    }
+  
+    .blog-social-media>span{
+      font-size: 0.9rem;
+    }
+  
+    .blog-news-footer {
+      justify-content:flex-start;
+    }
+  }

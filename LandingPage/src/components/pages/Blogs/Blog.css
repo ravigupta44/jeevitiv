@@ -1,0 +1,149 @@
+/* Header*/
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+
+} */
+
+.Blog{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.BlogHeading {
+  text-align: center;
+  color: #035b96;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: 3%;
+  letter-spacing: 1px;
+  
+}
+
+.BlogSub {
+  text-align: center;
+  color: #5f5f5f;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1% 0 2% 0;
+}
+.Blog > form {
+  display: flex;
+  width: 50%;
+  max-width: 567px;
+  height: 2.5rem;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.Blog> form > input {
+  width: 100%;
+  border: none;
+  font-weight: 400;
+  background: transparent;
+  padding: 0.3rem 0 0.3rem 15px;
+  color: #5f5f5f;
+}
+
+.Blog > form > input::placeholder {
+  color: #5f5f5f;
+}
+
+.Blog > form > button {
+  padding: 0 0.5rem;
+  color: #5f5f5f;
+  border: none;
+  border-left: 0.5px solid #c2c2c2;
+  height: 100%;
+  width: max-content;
+  background: transparent;
+}
+.Blog > form > button:focus {
+  border: none;
+}
+
+.demo_btn {
+  width: 251.49px;
+  height: 38.37px;
+  left: 229px;
+  top: 1060.73px;
+  background: #035b96;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: white;
+  flex: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  padding: 1.2% 5%;
+}
+.navbar-collapse {
+  margin-left: 17%;
+}
+#navBarSearchForm {
+  width: 25rem !important;
+}
+.header-left-part {
+  margin-left: 12%;
+}
+/*.nav-item {
+  margin: auto 10px;
+} */
+
+/* Media-card */
+#media-Card {
+  margin-top: 5%;
+}
+
+/* pagination */
+
+.MuiPagination-ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  /* text-align: center; */
+}
+
+.blogreadmore {
+  text-decoration: none;
+  font-family: Alef;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Blog {
+    margin-bottom: 1.2rem;
+  }
+  .BlogHeading {
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
+  }
+
+  .BlogSub {
+    font-size: 0.9rem;
+  }
+
+  .Blog> form {
+    width: 70%;
+    height: 2.3rem;
+
+  }
+}
+  
+
+
+
+
+
